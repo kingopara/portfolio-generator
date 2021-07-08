@@ -37,7 +37,7 @@ const inquirer = require('inquirer');
 
 const { writeFile, copyFile } = require('./utils/generate-site.js');
 const generatePage = require('./src/page-template.js');
-const { writeFile, copyFile } = require('fs/promises');
+// const { writeFile, copyFile } = require('fs/promises');
 
 // const profileDataArgs = process.argv.slice(2);
 
